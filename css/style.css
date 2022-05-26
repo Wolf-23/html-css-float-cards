@@ -1,3 +1,5 @@
+/* Regola di reset + Regole generali */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,4 +9,52 @@
 body {
     font-family: 'Fredoka', sans-serif;
     background-color: #fff;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Regola di Clearfix */
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.intestazione {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.intestazione h1 {
+    color: #e53170;
+    margin-bottom: 15px;
+}
+
+.card {
+    width: calc(90% / 3);
+    background-color: #0f0e17;
+    height: 100px;
+    float: left;
+    margin: 25px 15px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.photo img{
+    height: 100px;
+    float: left;
+}
+
+.data {
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.data h3,h5 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.data a {
+    text-decoration: none;
+    color: #41B4E7;
 }
