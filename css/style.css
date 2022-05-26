@@ -20,6 +20,8 @@ body {
     clear: both;
     display: table;
 }
+ 
+/* Intestazione  */
 
 .intestazione {
     text-align: center;
@@ -28,8 +30,10 @@ body {
 
 .intestazione h1 {
     color: #e53170;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
+
+ /* Container Card */
 
 .card {
     width: calc(90% / 3);
@@ -37,21 +41,34 @@ body {
     height: 100px;
     float: left;
     margin: 25px 15px;
-    box-shadow: 0px 0px 10px 0px #000;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+/* Div Photo */
+
+.photo {
+    float: left;
 }
 
 .photo img{
     height: 100px;
-    float: left;
 }
 
+/* Div Data */
+
 .data {
-    margin-top: 10px;
-    margin-left: 110px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
 }
+
 .data h3,h5 {
     color: #fff;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.data h5 {
+    font-weight: 400;
 }
 
 .data a {
